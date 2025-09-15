@@ -1,3 +1,5 @@
+
+import java.util.Scanner;
 public class StringDecleration {
     public static void main(String[] args) {
 
@@ -18,14 +20,23 @@ public class StringDecleration {
 // System.out.println(name1==name5);
 // System.out.println(name2==name4);
 
-String name1= new String("Pranjal");
-String name2= new String("harsh");
-String name3= new String("rohan");
-String name4= new String("Laulita");
-System.out.println(name1 == name2);
-System.out.println(name2 == name3);
-System.out.println(name3 == name4);
-System.out.println(name1 == name4);
+// String name1= new String("Pranjal");
+// String name2= new String("harsh");
+// String name3= new String("rohan");
+// String name4= new String("Laulita");
+// System.out.println(name1 == name2);
+// System.out.println(name2 == name3);
+// System.out.println(name3 == name4);
+// System.out.println(name1 == name4);
 
+Scanner cs = new Scanner(System.in);
+
+System.out.println("Enter a Line");
+String Line = cs.nextLine();
+System.out.println("Enter a word");
+String name = cs.next();
+System.out.println("Line is:"+Line);
+System.out.println("Word is:"+name);
+cs.close();
     }
 }
